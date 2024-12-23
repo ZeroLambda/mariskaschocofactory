@@ -89,7 +89,8 @@ h1, h2, h3, h4 {
 @media (max-width: 768px) {
     .header__nav ul {
     flex-direction: column;
-    background: #FFF;
+    /* background: #FFF; */
+    background: var(--color-primary);
     position: absolute;
     top: 100%;
     right: 0;
@@ -101,14 +102,16 @@ h1, h2, h3, h4 {
     display: flex;
     }
     .nav-toggle {
-    display: block;
-    font-size: 1.5rem;
-    cursor: pointer;
+        display: none; /* Hidden on desktop */
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--font-color); /* Updated Icon Color */
     }
 }
 @media (min-width: 769px) {
     .nav-toggle {
-    display: none;
+        display: block; /* Ensure it's visible on mobile */
+        color: var(--font-color); /* Confirm Icon Color */
     }
 }
 
