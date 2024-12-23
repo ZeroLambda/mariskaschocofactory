@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Mariska's ChocoFactory - Handcrafted with Love"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mariska's ChocoFactory</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+
+  <!-- AOS CSS for scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <a href="index.html">Mariska's ChocoFactory</a>
+    </div>
+    <div class="header__nav">
+      <span class="nav-toggle"><i class="fas fa-bars"></i></span>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="wholesale.html">Bulk</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-in">
+      <video autoplay muted loop id="video-background">
+          <source src="videos/hero-bg-1.mp4" type="video/mp4">
+        </video>
+  <!-- <section class="hero" style="background-image: url('images/choco8_mint_infusion.jpg');" data-aos="fade-in"> -->
+      <div class="hero__overlay">
+      <h1>Mariska's ChocoFactory</h1>
+      <p>Handcrafted with Love</p>
+      <a href="products.html" class="btn btn--primary">Explore Our Chocolates</a>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured-products" data-aos="fade-up">
+    <h2>Featured Creations</h2>
+    <div class="product-grid">
+      <!-- Featured products will be dynamically injected here -->
+    </div>
+  </section>
+
+  <!-- About Teaser -->
+  <section class="about-teaser" data-aos="fade-up">
+    <div class="about-teaser__content">
+      <h2>Our Story</h2>
+      <p>For over a decade, Mahima and her family have transformed ethically sourced cocoa into exquisite chocolates. Each piece carries the richness of tradition and the warmth of our family kitchen.</p>
+      <a href="about.html" class="btn btn--primary" style="background: var(--color-accent); color: var(--color-primary);">Explore More</a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" data-aos="fade-up">
+    <h2>What Our Customers Say</h2>
+    <blockquote>
+      <p>"The best homemade chocolate I’ve ever tasted, hands down. They have set the standard for what great chocolate should be."</p>
+      <cite>- Priya J.</cite>
+    </blockquote>
+    <blockquote>
+      <p>"I’ve been gifting their truffles for years, and they never fail to impress. It’s more than chocolate; it’s an experience."</p>
+      <cite>- Krishna K.</cite>
+    </blockquote>
+    <blockquote>
+      <p>"Incredibly smooth and flavorful. I love their commitment to sustainability and fair trade sourcing."</p>
+      <cite>– Vaishnavi L.</cite>
+    </blockquote>
+    <blockquote>
+      <p>"My go-to place for gifts and indulgences. Absolutely amazing!"</p>
+      <cite>- Sheela Devi R.</cite>
+    </blockquote>    
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" data-aos="fade-up">
+    <h2>Join Our Mailing List</h2>
+    <p>Be the first to know about new releases, seasonal flavors, and exclusive deals.</p>
+    <form action="#" method="post">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email address"/>
+      <button type="submit" class="btn btn--primary">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__bg-wave" aria-hidden="true">
+      <!-- Optional SVG background decoration -->
+      <svg width="100%" height="100px" preserveAspectRatio="none" viewBox="0 0 1920 100">
+        <path fill="#FAF9F7" d="M0,30 C960,100 960,0 1920,30 L1920,100 L0,100 Z"></path>
+      </svg>
+    </div>
+    <div class="footer__content">
+      <div class="footer__brand">
+        <div class="footer__logo">Mariska's Handcrafted Chocolates</div>
+        <p>Handcrafted chocolates made from ethically sourced cocoa beans. Indulge in flavor, tradition, and authenticity with every bite.</p>
+      </div>
+      <div class="footer__links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="wholesale.html">Bulk</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__newsletter">
+        <h3>Stay Connected</h3>
+        <p>Join our mailing list for updates, seasonal flavors, and special offers.</p>
+        <form action="#" method="post" class="newsletter-form">
+          <label for="newsletter-email" class="visually-hidden">Email Address</label>
+          <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your Email" required>
+          <button type="submit" class="btn btn--accent">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer__social-contact">
+        <h3>Follow & Contact</h3>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+          <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:mariskadelights@gmail.com.com">mariskadelights@gmail.com</a></p>
+        <p><i class="fas fa-phone-alt"></i> +91 (735) 700-9999</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Mariska's ChocoFactory. Crafted with love in Madras, TN.</p>
+    </div>
+  </footer>
+
+  <!-- AOS JS for animations -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <script src="js/main.js"></script>
+
+  <!-- Featured Products Population (External File) -->
+  <script src="js/featured-products.js"></script>
+</body>
+</html>

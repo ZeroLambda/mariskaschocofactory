@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Order Artisan Chocolates - Mariska's ChocoFactory"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order | Mariska's ChocoFactory</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <a href="index.html">Mariska's ChocoFactory</a>
+    </div>
+    <div class="header__nav">
+      <span class="nav-toggle"><i class="fas fa-bars"></i></span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a class="active" href="order.html">Order</a></li>
+        <li><a href="wholesale.html">Bulk</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero--small" style="background-image: url('images/hero-chocolates.webp');" data-aos="fade-in">
+    <div class="hero__overlay">
+      <h1>Place Your Order</h1>
+    </div>
+  </section>
+
+  <!-- Order Instructions -->
+  <section class="content-section" data-aos="fade-up">
+    <div class="content-container">
+      <h2>How Our Ordering Works</h2>
+      <p>We currently don’t have an online payment gateway, but don’t worry – ordering is still easy. Simply fill out the form below with your product choices, shipping details, and preferred delivery method. Once we receive your request, we’ll get in touch with an invoice and payment instructions. After payment is confirmed, we’ll prepare and ship your chocolates fresh, ensuring they arrive in perfect condition.</p>
+    </div>
+  </section>
+
+  <!-- Order Form Section -->
+  <section class="order-form-section" data-aos="fade-up">
+    <div class="content-container">
+      <h2>Order Form</h2>
+      <form class="order-form" action="#" method="post">
+        <h3>Contact & Shipping Details</h3>
+        <div class="form-group">
+          <label for="full-name">Full Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="full-name" name="full-name" required placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="Your email address">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone <span aria-hidden="true">*</span></label>
+          <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+        </div>
+        <div class="form-group">
+          <label for="address">Street Address <span aria-hidden="true">*</span></label>
+          <input type="text" id="address" name="address" required placeholder="Street, Apt/Suite">
+        </div>
+        <div class="form-group">
+          <label for="city">City <span aria-hidden="true">*</span></label>
+          <input type="text" id="city" name="city" required placeholder="City">
+        </div>
+        <div class="form-group">
+          <label for="state">State/Province <span aria-hidden="true">*</span></label>
+          <input type="text" id="state" name="state" required placeholder="State or Province">
+        </div>
+        <div class="form-group">
+          <label for="zip">ZIP/Postal Code <span aria-hidden="true">*</span></label>
+          <input type="text" id="zip" name="zip" required placeholder="Postal code">
+        </div>
+        <div class="form-group">
+          <label for="country">Country <span aria-hidden="true">*</span></label>
+          <input type="text" id="country" name="country" required placeholder="Country">
+        </div>
+
+        <h3>Product Selection</h3>
+        <p>Please select the products and quantities you wish to order.</p>
+        <div class="product-selection-grid">
+          <div class="product-selection-item">
+            <label for="truffles-qty">Dark Chocolate Sea Salt Truffles:</label>
+            <input type="number" id="truffles-qty" name="truffles-qty" min="0" placeholder="Quantity">
+          </div>
+          <div class="product-selection-item">
+            <label for="bars-qty">70% Single-Origin Bars:</label>
+            <input type="number" id="bars-qty" name="bars-qty" min="0" placeholder="Quantity">
+          </div>
+          <div class="product-selection-item">
+            <label for="bonbons-qty">Hazelnut Praline Bonbons:</label>
+            <input type="number" id="bonbons-qty" name="bonbons-qty" min="0" placeholder="Quantity">
+          </div>
+          <div class="product-selection-item">
+            <label for="assortment-qty">Raspberry Truffle Assortment:</label>
+            <input type="number" id="assortment-qty" name="assortment-qty" min="0" placeholder="Quantity">
+          </div>
+          <div class="product-selection-item">
+            <label for="gift-box-qty">Assorted Praline Gift Box:</label>
+            <input type="number" id="gift-box-qty" name="gift-box-qty" min="0" placeholder="Quantity">
+          </div>
+          <div class="product-selection-item">
+            <label for="almond-bar-qty">Almond Crunch Chocolate Bar:</label>
+            <input type="number" id="almond-bar-qty" name="almond-bar-qty" min="0" placeholder="Quantity">
+          </div>
+        </div>
+
+        <h3>Delivery Method</h3>
+        <div class="form-group">
+          <label for="delivery-method">Select Delivery Method:</label>
+          <select id="delivery-method" name="delivery-method">
+            <option value="postal">Postal Service</option>
+            <option value="courier">Courier Delivery</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Additional Notes</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Any special instructions or requests?"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary">Submit Order Request</button>
+      </form>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg-wave" aria-hidden="true">
+          <!-- Optional SVG background decoration -->
+          <svg width="100%" height="100px" preserveAspectRatio="none" viewBox="0 0 1920 100">
+            <path fill="#FAF9F7" d="M0,30 C960,100 960,0 1920,30 L1920,100 L0,100 Z"></path>
+          </svg>
+        </div>
+        <div class="footer__content">
+          <div class="footer__brand">
+            <div class="footer__logo">Mariska's Handcrafted Chocolates</div>
+            <p>Handcrafted chocolates made from ethically sourced cocoa beans. Indulge in flavor, tradition, and authenticity with every bite.</p>
+          </div>
+          <div class="footer__links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="order.html">Order</a></li>
+              <li><a href="wholesale.html">Bulk</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__newsletter">
+            <h3>Stay Connected</h3>
+            <p>Join our mailing list for updates, seasonal flavors, and special offers.</p>
+            <form action="#" method="post" class="newsletter-form">
+              <label for="newsletter-email" class="visually-hidden">Email Address</label>
+              <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your Email" required>
+              <button type="submit" class="btn btn--accent">Subscribe</button>
+            </form>
+          </div>
+          <div class="footer__social-contact">
+            <h3>Follow & Contact</h3>
+            <ul class="social-links">
+              <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:mariskadelights@gmail.com.com">mariskadelights@gmail.com</a></p>
+            <p><i class="fas fa-phone-alt"></i> +91 (735) 700-9999</p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2024 Mariska's ChocoFactory. Crafted with love in Madras, TN.</p>
+        </div>
+    </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

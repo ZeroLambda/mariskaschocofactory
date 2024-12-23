@@ -1,0 +1,45 @@
+[
+    {
+    "id": "truffles",
+    "name": "Dark Chocolate Sea Salt Truffles",
+    "category": "truffles",
+    "price": 12.99,
+    "image": "images/choco1.jpg"
+    },
+    {
+    "id": "bars",
+    "name": "70% Single-Origin Bar",
+    "category": "bars",
+    "price": 8.49,
+    "image": "images/choco2.jpg"
+    },
+    {
+    "id": "bonbons",
+    "name": "Hazelnut Praline Bonbons",
+    "category": "bonbons",
+    "price": 14.99,
+    "image": "images/choco3.jpg"
+    },
+    {
+    "id": "assortments",
+    "name": "Raspberry Truffle Assortment",
+    "category": "assortments",
+    "price": 16.50,
+    "image": "images/choco4.jpg"
+    },
+    {
+    "id": "assortments2",
+    "name": "Assorted Praline Gift Box",
+    "category": "assortments",
+    "price": 24.99,
+    "image": "images/choco5.jpg"
+    },
+    {
+    "id": "bars2",
+    "name": "Almond Crunch Chocolate Bar",
+    "category": "bars",
+    "price": 9.99,
+    "image": "images/choco6.jpg"
+    }
+]
+  

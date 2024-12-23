@@ -1,0 +1,125 @@
+{
+  "truffles": {
+    "id": "truffles",
+    "name": "Dark Chocolate Sea Salt Truffles",
+    "price": 12.99,
+    "description": "Crafted with single-origin cacao and a delicate sprinkling of sea salt, our Dark Chocolate Sea Salt Truffles offer a perfect balance of rich flavors.",
+    "flavorNotes": ["Rich cocoa notes", "Subtle saltiness", "Silky-smooth ganache"],
+    "mainImage": "images/choco1.jpg",
+    "thumbnails": [
+      "images/choco1.jpg",
+      "images/choco2.jpg"
+    ],
+    "nutrition": {
+      "serving": "2 truffles (30g)",
+      "calories": 160,
+      "fat": "11g",
+      "sugar": "9g"
+    },
+    "reviews": [
+      { "name": "Emma J.", "comment": "Absolutely divine. The salt brings out complexity." },
+      { "name": "James L.", "comment": "Perfect gift. Smooth, rich, and unforgettable." }
+    ]
+  },
+  "bars": {
+    "id": "bars",
+    "name": "70% Single-Origin Bar",
+    "price": 8.49,
+    "description": "Experience the pure essence of cacao with our 70% Single-Origin Bars, offering a robust flavor profile and smooth texture.",
+    "flavorNotes": ["Robust cacao", "Earthy undertones", "Smooth finish"],
+    "mainImage": "images/choco2.jpg",
+    "thumbnails": [
+      "images/choco2.jpg",
+      "images/choco3.jpg"
+    ],
+    "nutrition": {
+      "serving": "1 bar (40g)",
+      "calories": 220,
+      "fat": "14g",
+      "sugar": "6g"
+    },
+    "reviews": [
+      { "name": "Sophia M.", "comment": "Rich and flavorful. A true testament to high-quality cocoa." }
+    ]
+  },
+  "bonbons": {
+    "id": "bonbons",
+    "name": "Hazelnut Praline Bonbons",
+    "price": 14.99,
+    "description": "Delight in our Hazelnut Praline Bonbons, featuring a creamy hazelnut filling encased in premium dark chocolate.",
+    "flavorNotes": ["Creamy hazelnut", "Deep chocolate", "Crunchy texture"],
+    "mainImage": "images/choco3.jpg",
+    "thumbnails": [
+      "images/choco3.jpg",
+      "images/choco4.jpg"
+    ],
+    "nutrition": {
+      "serving": "3 bonbons (30g)",
+      "calories": 180,
+      "fat": "12g",
+      "sugar": "10g"
+    },
+    "reviews": []
+  },
+  "assortments": {
+    "id": "assortments",
+    "name": "Raspberry Truffle Assortment",
+    "price": 16.50,
+    "description": "Our Raspberry Truffle Assortment combines tangy raspberry essence with our signature truffle craftsmanship.",
+    "flavorNotes": ["Tangy raspberry", "Smooth chocolate", "Balanced sweetness"],
+    "mainImage": "images/choco4.jpg",
+    "thumbnails": [
+      "images/choco4.jpg",
+      "images/choco5.jpg"
+    ],
+    "nutrition": {
+      "serving": "4 truffles (40g)",
+      "calories": 200,
+      "fat": "13g",
+      "sugar": "11g"
+    },
+    "reviews": [
+      { "name": "Liam S.", "comment": "Perfect blend of sweet and tart. A delightful treat!" }
+    ]
+  },
+  "assortments2": {
+    "id": "assortments2",
+    "name": "Assorted Praline Gift Box",
+    "price": 24.99,
+    "description": "Our Assorted Praline Gift Box is a curated selection of our finest pralines, ideal for gifting on any occasion.",
+    "flavorNotes": ["Variety of flavors", "Elegant presentation", "Premium quality"],
+    "mainImage": "images/choco5.jpg",
+    "thumbnails": [
+      "images/choco5.jpg",
+      "images/choco6.jpg"
+    ],
+    "nutrition": {
+      "serving": "10 pralines (100g)",
+      "calories": 500,
+      "fat": "30g",
+      "sugar": "25g"
+    },
+    "reviews": []
+  },
+  "bars2": {
+    "id": "bars2",
+    "name": "Almond Crunch Chocolate Bar",
+    "price": 9.99,
+    "description": "Crunchy almonds enveloped in our smooth dark chocolate make this bar a delightful snack.",
+    "flavorNotes": ["Crunchy almonds", "Rich dark chocolate", "Satisfying texture"],
+    "mainImage": "images/choco6.jpg",
+    "thumbnails": [
+      "images/choco6.jpg",
+      "images/choco1.jpg"
+    ],
+    "nutrition": {
+      "serving": "1 bar (40g)",
+      "calories": 240,
+      "fat": "16g",
+      "sugar": "12g"
+    },
+    "reviews": [
+      { "name": "Olivia K.", "comment": "The almonds add a perfect crunch to the rich chocolate. Love it!" }
+    ]
+  }
+}

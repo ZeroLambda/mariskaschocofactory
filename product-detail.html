@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Dark Chocolate Sea Salt Truffles - Product Details"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Chocolate Sea Salt Truffles | Mariska's ChocoFactory</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <a href="index.html">Mariska's ChocoFactory</a>
+    </div>
+    <div class="header__nav">
+      <span class="nav-toggle"><i class="fas fa-bars"></i></span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="wholesale.html">Bulk</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Product Hero Section -->
+  <section class="hero hero--small" style="background-image: url('images/hero-chocolates.webp');" data-aos="fade-in">
+    <div class="hero__overlay">
+      <h1>Dark Chocolate Sea Salt Truffles</h1>
+    </div>
+  </section>
+
+  <!-- Product Detail Placeholder Structure -->
+  <section class="product-detail">
+    <div class="content-container product-detail__container">
+      <div class="product-detail__info">
+        <h2 id="product-name"></h2>
+        <p class="price" id="product-price"></p>
+        <p id="product-description"></p>
+        <ul class="flavor-notes" id="flavor-notes"></ul>
+        <!-- <button class="btn btn--primary"></button>">Order Now</button> -->
+        <a href="order.html" class="btn btn--primary">Order Now</a>
+      </div>
+      <div class="product-detail__gallery">
+        <img class="product-detail__main-image" id="main-image" alt="Product Image">
+        <div class="product-detail__thumbs" id="thumbs-container"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Tabs Section (Nutrition & Reviews) -->
+<section class="product-tabs">
+    <div class="content-container">
+      <ul class="tabs" role="tablist">
+        <li role="presentation"><button role="tab" aria-selected="true" aria-controls="nutrition" class="active">Nutrition Info</button></li>
+        <li role="presentation"><button role="tab" aria-selected="false" aria-controls="reviews">Reviews</button></li>
+      </ul>
+      <div class="tab-content">
+        <div id="nutrition" class="tab-panel" role="tabpanel">
+          <h3>Nutrition Facts</h3>
+          <div id="nutrition-content"></div>
+        </div>
+        <div id="reviews" class="tab-panel" role="tabpanel" hidden>
+          <h3>Customer Reviews</h3>
+          <div id="reviews-content"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__bg-wave" aria-hidden="true">
+          <!-- Optional SVG background decoration -->
+          <svg width="100%" height="100px" preserveAspectRatio="none" viewBox="0 0 1920 100">
+            <path fill="#FAF9F7" d="M0,30 C960,100 960,0 1920,30 L1920,100 L0,100 Z"></path>
+          </svg>
+        </div>
+        <div class="footer__content">
+          <div class="footer__brand">
+            <div class="footer__logo">Mariska's Handcrafted Chocolates</div>
+            <p>Handcrafted chocolates made from ethically sourced cocoa beans. Indulge in flavor, tradition, and authenticity with every bite.</p>
+          </div>
+          <div class="footer__links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="order.html">Order</a></li>
+              <li><a href="wholesale.html">Bulk</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__newsletter">
+            <h3>Stay Connected</h3>
+            <p>Join our mailing list for updates, seasonal flavors, and special offers.</p>
+            <form action="#" method="post" class="newsletter-form">
+              <label for="newsletter-email" class="visually-hidden">Email Address</label>
+              <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your Email" required>
+              <button type="submit" class="btn btn--accent">Subscribe</button>
+            </form>
+          </div>
+          <div class="footer__social-contact">
+            <h3>Follow & Contact</h3>
+            <ul class="social-links">
+              <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:mariskadelights@gmail.com.com">mariskadelights@gmail.com</a></p>
+            <p><i class="fas fa-phone-alt"></i> +91 (735) 700-9999</p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2024 Mariska's ChocoFactory. Crafted with love in Madras, TN.</p>
+        </div>
+      </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+  
+  <!-- Product Detail JS -->
+  <script src="js/product-details.js"></script>
+</body>
+</html>
