@@ -17,8 +17,8 @@
       "sugar": "9g"
     },
     "reviews": [
-      { "name": "Emma J.", "comment": "Absolutely divine. The salt brings out complexity." },
-      { "name": "James L.", "comment": "Perfect gift. Smooth, rich, and unforgettable." }
+      { "name": "Sowmya J.", "comment": "Absolutely divine. The salt brings out complexity." },
+      { "name": "Kalpana L.", "comment": "Perfect gift. Smooth, rich, and unforgettable." }
     ]
   },
   "bars": {
@@ -39,7 +39,7 @@
       "sugar": "6g"
     },
     "reviews": [
-      { "name": "Sophia M.", "comment": "Rich and flavorful. A true testament to high-quality cocoa." }
+      { "name": "Geetha M.", "comment": "Rich and flavorful. A true testament to high-quality cocoa." }
     ]
   },
   "bonbons": {
@@ -79,7 +79,7 @@
       "sugar": "11g"
     },
     "reviews": [
-      { "name": "Liam S.", "comment": "Perfect blend of sweet and tart. A delightful treat!" }
+      { "name": "Mohan S.", "comment": "Perfect blend of sweet and tart. A delightful treat!" }
     ]
   },
   "assortments2": {
@@ -119,7 +119,7 @@
       "sugar": "12g"
     },
     "reviews": [
-      { "name": "Olivia K.", "comment": "The almonds add a perfect crunch to the rich chocolate. Love it!" }
+      { "name": "Deepa G.", "comment": "The almonds add a perfect crunch to the rich chocolate. Love it!" }
     ]
   }
 }
