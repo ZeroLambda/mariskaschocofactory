@@ -86,34 +86,68 @@ h1, h2, h3, h4 {
     color: var(--color-accent);
 }
 
+.nav-toggle {
+    display: none; /* Hidden on desktop */
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--font-color); /* Updated Icon Color */
+}
+
+/* Mobile Navigation */
 @media (max-width: 768px) {
     .header__nav ul {
-    flex-direction: column;
-    /* background: #FFF; */
-    background: var(--color-primary);
-    position: absolute;
-    top: 100%;
-    right: 0;
-    border: 1px solid #DDD;
-    display: none;
-    padding: 1rem;
+        flex-direction: column;
+        background: var(--color-primary); /* Changed from #FFF */
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0; /* Full width */
+        border: none; /* Removed border */
+        display: none;
+        padding: 1rem;
+        z-index: 1001; /* Above other elements */
+        transition: all 0.3s ease-in-out; /* Smooth transition */
+        overflow: hidden; /* Prevents overflow */
     }
     .header__nav ul.show {
-    display: flex;
+        display: flex;
+    }
+    .header__nav a {
+        color: var(--font-color); /* Off-white text */
+        padding: 0.5rem 0; /* Better touch targets */
+    }
+    .header__nav a:hover {
+        color: var(--color-accent); /* Golden Accent on Hover */
     }
     .nav-toggle {
-        display: none; /* Hidden on desktop */
-        font-size: 1.5rem;
-        cursor: pointer;
+        display: block; /* Visible on mobile */
         color: var(--font-color); /* Updated Icon Color */
     }
-}
-@media (min-width: 769px) {
-    .nav-toggle {
-        display: block; /* Ensure it's visible on mobile */
-        color: var(--font-color); /* Confirm Icon Color */
+
+    /* Optional: Hover and Active States for Toggle Icon */
+    .nav-toggle:hover,
+    .nav-toggle.active {
+        color: var(--color-accent); /* Golden Accent on Hover or Active */
+    }
+    
+    /* Adjust header padding for mobile */
+    .header {
+        padding: 1rem;
     }
 }
+
+/* Focus Styles for Accessibility */
+.header__nav a:focus {
+    outline: 2px dashed var(--color-accent);
+    outline-offset: 4px;
+}
+
+/* Optional: Hover and Active States */
+.nav-toggle:hover,
+.nav-toggle.active {
+    color: var(--color-accent); /* Golden Accent on Hover or Active */
+}
+
 
 /* Hero Section */
 .hero {
